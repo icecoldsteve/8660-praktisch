@@ -1,2 +1,2 @@
-# 8660-praktisch
-8660 PRAKTISCH - Praktische info: openingsuren, contacten, afspraken, sociale media voor De Panne.
+# 8660 PRAKTISCH
+Praktische info en sociale media voor De Panne.

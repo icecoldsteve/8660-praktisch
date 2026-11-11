@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#53C2EC">
+<title>8660 PRAKTISCH</title>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700;800&family=Lexend:wght@400;500;600&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#EEF8FB;--surface:#fff;--ink:#18182E;--muted:#5B5B72;--line:#D3E5EB;--sea:#0F7FAA;--blue:#53C2EC;--dune:#E9C46A;--display:"Barlow Condensed",sans-serif;--body:"Lexend",sans-serif;--mono:"JetBrains Mono",monospace;--radius:14px}
+@media (prefers-color-scheme:dark){:root{--bg:#100F24;--surface:#1A1937;--ink:#EEF8FB;--muted:#A9AFC8;--line:#2E2D57}}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--body);font-size:17px;line-height:1.55}
+.wrap{max-width:1100px;margin:0 auto;padding:16px}
+.nav{position:sticky;top:0;background:color-mix(in srgb,var(--surface) 92%,transparent);backdrop-filter:blur(12px);border-bottom:3px solid var(--blue);z-index:40}
+.nav .wrap{display:flex;align-items:center;height:60px}
+.brand{font-family:var(--display);font-weight:900;font-size:1.45rem;text-decoration:none;color:var(--ink)}
+.kicker{font-family:var(--mono);font-size:.75rem;letter-spacing:.14em;text-transform:uppercase;color:var(--sea);font-weight:600}
+h1,h2{font-family:var(--display);text-transform:uppercase;font-weight:800;margin:0}
+h1{font-size:clamp(2.6rem,7vw,4.2rem)}
+.lede{color:var(--muted);max-width:62ch}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px;margin-top:20px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:18px}
+.social{display:flex;gap:16px;flex-wrap:wrap;margin-top:16px;align-items:center}
+.social a{display:flex;align-items:center;gap:8px;text-decoration:none;color:var(--ink);font-weight:600}
+.social img{width:32px;height:32px}
+footer{margin-top:40px;padding:20px 0;border-top:1px solid var(--line);font-size:.85rem;color:var(--muted)}
+</style>
+</head>
+<body>
+<nav class="nav"><div class="wrap"><a class="brand" href="/">8660 PRAKTISCH</a></div></nav>
+<div class="wrap">
+<p class="kicker">8660 De Panne · Adinkerke</p>
+<h1>Praktische info</h1>
+<p class="lede">Openingsuren, contacten, afspraken en sociale media van de gemeente.</p>
+
+<div class="grid">
+<div class="card"><h3>Gemeentehuis</h3><p>Zeelaan 21, 8660 De Panne<br>Tel. 058 42 16 16<br>info@depanne.be</p><p>Burgerzaken: 058 42 97 60</p></div>
+<div class="card"><h3>Afspraak maken</h3><p>Veel zaken digitaal via Mijn Burgerprofiel. Anders online afspraak of bel.</p><a href="https://www.depanne.be/nl/afspraak-maken" target="_blank">Afspraak maken →</a></div>
+<div class="card"><h3>Recyclagepark</h3><p>Loskaai 12<br>Ma-do 9-12 & 13-17, vr 9-12 & 13-17, za 9-16</p></div>
+<div class="card"><h3>De Panne-app</h3><p>Afvalkalender, meldingen, attesten, nieuws en eBox. Gratis.</p></div>
+</div>
+
+<section style="margin-top:32px">
+<h2>Volg De Panne</h2>
+<div class="social">
+<a href="https://www.instagram.com/visit_depanne/" target="_blank"><img src="https://cdn.simpleicons.org/instagram/E4405F" alt="Instagram"> Instagram @visit_depanne</a>
+<a href="https://www.facebook.com/gemeente.depanne" target="_blank"><img src="https://cdn.simpleicons.org/facebook/1877F2" alt="Facebook"> Facebook Gemeente</a>
+<a href="https://www.depanne.be" target="_blank"><img src="https://cdn.simpleicons.org/googlechrome/4285F4" alt="Website"> depanne.be</a>
+</div>
+<p style="margin-top:12px;font-size:.9rem;color:var(--muted)">Ook: Visit De Panne op sociale media. #visitdepanne</p>
+</section>
+
+<footer><p>8660 PRAKTISCH · Gemaakt in 8660. Bron: gemeente De Panne. <a href="https://8660-dashboard.vercel.app">Dashboard</a></p></footer>
+</div>
+</body>
+</html>
